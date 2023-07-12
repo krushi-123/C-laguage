@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() 
+{
+    int i;
+
+    for (i = 1; i <= 16; i *= 2) 
+    {
+        printf("%d ", i);
+
+        if (i == 1) 
+        {
+            i = 4;
+            printf("%d ", i);
+        }
+    }
+
+    printf("\n");
+
+    return 0;
+}
